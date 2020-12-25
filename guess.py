@@ -1,5 +1,10 @@
 import random
-r = random.randint(1, 100)
+start = input ("選擇你開始的範圍：")
+end = input ("選擇你結速的範圍：")
+start = int(start)
+end = int(end)
+
+r = random.randint(start, end)
 x = 0
 
 while True:
